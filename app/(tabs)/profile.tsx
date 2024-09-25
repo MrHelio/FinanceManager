@@ -8,7 +8,7 @@ const Page = () => {
     <>
       <Stack.Screen options={{ headerShown: false }} />
       <View style={styles.container}>
-        <Text style={styles.text}>Profile</Text>
+        <Text style={styles.text}>Perfil</Text>
       </View>
     </>
   );

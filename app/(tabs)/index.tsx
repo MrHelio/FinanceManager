@@ -54,7 +54,7 @@ const Page = () => {
               </Text>
               <Text
                 style={{ color: Colors.white, fontSize: 36, fontWeight: 700 }}
-              >
+              >                                                                                        
                 $1475.<Text style={{ fontSize: 22, fontWeight: 400 }}>00</Text>
               </Text>
             </View>

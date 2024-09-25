@@ -15,9 +15,9 @@ const Header = () => {
             style={styles.userImg}
           />
           <View style={styles.userTxtWrapper}>
-            <Text style={[styles.userText, { fontSize: 12 }]}>Hi, Jenny</Text>
+            <Text style={[styles.userText, { fontSize: 12 }]}>Oi,  </Text>
             <Text style={[styles.userText, { fontSize: 16 }]}>
-              Your <Text style={styles.boldText}>Budget</Text>
+              Meu <Text style={styles.boldText}>Orçamento</Text>
             </Text>
           </View>
         </View>
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   wrapper: {
     flexDirection: "row",
     justifyContent: "space-between",
-    height: 70,
+    height: 60,
     alignItems: "center",
     paddingHorizontal: 20,
   },

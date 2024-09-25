@@ -18,7 +18,7 @@ const SpendingBlock = ({ spendingList }: { spendingList: SpendingType[] }) => {
   return (
     <View style={styles.spendingSectionWrapper}>
       <Text style={styles.sectionTitle}>
-        July <Text style={{ fontWeight: "700" }}>Spending</Text>
+        <Text style={{ fontWeight: "700" }}>Despesas</Text> de Julho
       </Text>
 
       {spendingList.map((item) => {
@@ -32,7 +32,7 @@ const SpendingBlock = ({ spendingList }: { spendingList: SpendingType[] }) => {
           icon = <AmazonIcon width={22} height={22} color={Colors.white} />;
         } else if (item.name == "Figma") {
           icon = <FigmaIcon width={22} height={22} color={Colors.white} />;
-        } else if (item.name == "Online Shopping") {
+        } else if (item.name == "Shopping") {
           icon = (
             <ShoopingCartIcon width={22} height={22} color={Colors.white} />
           );

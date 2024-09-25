@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Salary",
+    "name": "Salário",
     "amount": "1,500.00"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "id": "3",
-    "name": "Interest",
+    "name": "Interesses",
     "amount": "200.95"
   }
 ]

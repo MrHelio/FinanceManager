@@ -15,9 +15,9 @@ import { Feather } from "@expo/vector-icons";
 const IncomeBlock = ({ incomeList }: { incomeList: IncomeType[] }) => {
   const renderItem: ListRenderItem<IncomeType> = ({ item }) => {
     let icon = <DollarIcon width={22} height={22} color={Colors.white} />;
-    if ( item.name == 'Freelancing' ) {
+    if ( item.name == 'Salão' ) {
       icon = <WalletCardIcon width={22} height={22} color={Colors.white} />
-    } else if (item.name == 'Interest') {
+    } else if (item.name == 'Interessse') {
       icon = <WalletAddMoneyIcon width={22} height={22} color={Colors.white} />
     }
 
@@ -67,7 +67,7 @@ const IncomeBlock = ({ incomeList }: { incomeList: IncomeType[] }) => {
   return (
     <View>
       <Text style={{ color: Colors.white, fontSize: 16, marginBottom: 20 }}>
-        My <Text style={{ fontWeight: "700" }}>Income</Text>
+        Minha <Text style={{ fontWeight: "700" }}>Renda</Text>
       </Text>
       <FlatList
         data={incomeList}
